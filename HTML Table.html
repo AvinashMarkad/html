@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Table</title>
+</head>
+<style>
+    table {
+        border: 3px solid black;
+        width: 100%;
+        align-items: center;
+        border-collapse: collapse;
+        font-size: 23px;
+
+    }
+
+    th {
+        border: 3px solid rgb(255, 2, 2);
+        text-align: center;
+    }
+
+    td {
+        border: 3px solid rgb(0, 255, 42);
+        text-align: center;
+    }
+
+    td:nth-child(odd) {
+        background-color: rgb(195, 187, 165);
+    }
+</style>
+
+<body>
+    <table>
+        <tr>
+            <th colspan="2">Pet Animals</th>
+            <th>Wild Animals</th>
+        </tr>
+        <tr>
+            <td>CAT</td>
+            <td>CAT</td>
+            <td>TIGER</td>
+        </tr>
+        <tr>
+            <td>DOG</td> 
+            <td>DOG</td>
+            <td>LION</td> 
+        </tr>
+    </table>
+    <table>
+        <tr>
+            <th colspan="3">Student</th>
+            <th colspan="3">Teacher</th>
+        </tr>
+        <tr>
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Email</th>
+
+            <th>Sr.no</th>
+            <th>Name</th>
+            <th>Email</th>
+        </tr>
+        <tr>
+            <td>1.</td>
+            <td>Avinash Markad</td>
+            <td>avimarkad@gmail.com</td>
+
+            <td>1.</td>
+            <td>Avinash Gaikwad</td>
+            <td>avigaikwad@gmail.com</td>
+        </tr>
+        <tr>
+            <td>2.</td>
+            <td>Faiz Momin</td>
+            <td>faizmomin@gmail.com</td>
+
+            <td>2.</td>
+            <td>Kamble Sir</td>
+            <td>kamble@gmail.com</td>
+        </tr>
+    </table>
+</body>
+
+</html>
