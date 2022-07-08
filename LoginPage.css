@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.div3{
+    background-color:#fff;
+    width: 50vw;
+    height: 70vh;
+    display: inline-block;
+    position: absolute;
+    top: 4vh;
+    left:13vw ;
+    /* border: 5px solid #FEABB9; */
+    border-radius: 20px;
+    box-shadow:8px 8px 8px 2px #000;
+    /* background-image: url("Untitled.png"); */
+}
+.div2{
+    background-color:none;
+    width: 80vw;
+    height: 80vh;
+    display: inline-block;
+    position: absolute;
+    top: 10vh;
+    left: 10vw;
+    /* box-shadow:8px 8px 8px 2px #000; */
+    /* background-image: url("Untitled1.png"); */
+}
+.div1{
+    /* background: #b00051 ; */
+    width: 100vw;
+    height: 100vh;
+    text-align: center;
+    background-image: url("Untitled1.png");
+}
+h1{
+   margin-top: 30px;
+   font-size: 40px;
+   font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif; 
+}
+label,input,button,a{
+    text-decoration: none;
+    color: #000;
+    margin-top: 30px;
+    font-size: 23px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button{
+    background-color: rgb(100, 173, 215);
+    padding: 5px;
+    width: 10vw;
+    border: 2px solid rgb(232, 191, 191);
+    border-radius: 10px;
+}
+input{
+    /* background-color: #FEABB9; */
+    padding-left: 10px;
+    width: 20vw;
+    border: 2px solid #FEABB9;
+    border-radius: 3px;
+    
+}
+hr{
+    height: 5px;
+    background-color: #f68370;
+}
+#btn2{
+    width:20vw;
+    position: absolute;
+    top: 51vh;
+    left: 22vw;
+    
+}
+#BRANDWARE{
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  color: rgb(255, 0, 255);
+}
+#LogInSignIn{
+         font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+#logo1{
+    height: 4vh;
+    width: 3vh;
+}
+#logo{
+    height: 3vh;
+    width: 3vh;
+}
+#Usernamelogo{
+    height: 3vh;
+    width: 3vh;
+}
+.NotRegis{
+    font-size: 23px;
+    position: absolute;
+    left:12vw ;
+    top:56vh ;
+}
